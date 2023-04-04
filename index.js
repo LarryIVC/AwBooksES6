@@ -1,4 +1,4 @@
-import { Page } from "./modules/Page.js";
+import { Page } from './modules/Page.js';
 
-const d = document;
-d.addEventListener('DOMContentLoaded',Page);
+const doc = document;
+doc.addEventListener('DOMContentLoaded', Page());
