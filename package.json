@@ -1,0 +1,24 @@
+{
+  "name": "awbookses6",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "dependencies": {
+    "luxon": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarryIVC/AwBooksES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarryIVC/AwBooksES6/issues"
+  },
+  "homepage": "https://github.com/LarryIVC/AwBooksES6#readme"
+}
