@@ -10,7 +10,7 @@ export default class BookList {
     this.addBookFormElement.addEventListener('submit', this.add.bind(this));
   }
 
-  loadBooks() {
+  loadBooks = () => {
     const storedBooks = JSON.parse(localStorage.getItem('books'));
     if (storedBooks) {
       this.books = storedBooks.map((book) => ({
@@ -20,7 +20,7 @@ export default class BookList {
     }
   }
 
-  add(event) {
+  add = (event) => {
     event.preventDefault();
     const title = this.titleInputElement.value;
     const author = this.authorInput.value;
@@ -31,12 +31,12 @@ export default class BookList {
     this.updateBookList();
   }
 
-  removeBook(title) {
+  removeBook = (title) => {
     this.books = this.books.filter((book) => book.title !== title);
     this.updateBookList();
   }
 
-  updateBookList() {
+  updateBookList = () => {
     this.bookListElement.innerHTML = '';
     this.books.forEach((book) => {
       const listItem = document.createElement('li');
@@ -47,8 +47,6 @@ export default class BookList {
       removeButton.addEventListener('click', () => {
         this.removeBook(book.title);
       });
-      // const breakline = document.createElement('hr');
-      // listItem.appendChild(breakline);
       listItem.appendChild(removeButton);
 
       this.bookListElement.appendChild(listItem);
