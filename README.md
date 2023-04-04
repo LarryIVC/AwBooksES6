@@ -39,8 +39,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://code.visualstudio.com/">HTML</a></li>
-    <li><a href="https://www.w3.org/standards/">CSS</a></li>
+    <li><a href="https://www.w3.org/standards/webdesign/htmlcss.html#whathtml">HTML</a></li>
+    <li><a href="https://www.w3.org/standards/webdesign/htmlcss.html#whatcss">CSS</a></li>
+    <li><a href="https://www.w3.org/standards/webdesign/script">JavaScript</a></li>
   </ul>
 </details>
   
