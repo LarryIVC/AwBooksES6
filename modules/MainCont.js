@@ -25,6 +25,6 @@ const MainCont = () => {
       </ul>
     </section>`;
   return myMain;
-}
+};
 
 export default MainCont;
