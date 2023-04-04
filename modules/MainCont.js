@@ -1,4 +1,4 @@
-export function MainCont() {
+const MainCont = () => {
   const doc = document;
   const myMain = doc.createElement('main');
   myMain.innerHTML = `<section id="all-books">
@@ -26,3 +26,5 @@ export function MainCont() {
     </section>`;
   return myMain;
 }
+
+export default MainCont;
