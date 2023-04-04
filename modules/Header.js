@@ -1,4 +1,4 @@
-export function Header() {
+const Header = () => {
   const html = `
   <nav class="book-list-container">
     <h3 class="book-list-title">Awesome Books</h3>
@@ -18,3 +18,5 @@ export function Header() {
   nodHeader.innerHTML = html;
   return nodHeader;
 }
+
+export default Header;
