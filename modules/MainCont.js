@@ -1,6 +1,6 @@
 export function MainCont() {
-  const doc = document,
-  myMain = doc.createElement('main');
+  const doc = document;
+  const myMain = doc.createElement('main');
   myMain.innerHTML = `<section id="all-books">
     <h1>All Awesome Books</h1>
     <ul id="book-list"><p>No Books yet, please add ...</p></ul>
@@ -24,5 +24,5 @@ export function MainCont() {
         <li>Our e-mail: <a href="mailto:abiola.arobieke@gmail.com" target="_blank">abiola.arobieke@gmail.com</a></li>
       </ul>
     </section>`;
-  return myMain; 
+  return myMain;
 }
