@@ -45,13 +45,13 @@ const logica = () => {
   bookList.loadBooks();
 
   hideSectionsOnClick();
- 
+
   DateTime.local();
- 
+
   const now = DateTime.now();
   const currentDate = now.toLocaleString(DateTime.DATETIME_MED);
   const xDateTime = document.getElementById('date-time');
   xDateTime.innerHTML = currentDate;
-}
+};
 
 export default logica;
