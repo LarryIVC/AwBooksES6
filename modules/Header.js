@@ -17,6 +17,6 @@ const Header = () => {
   const nodHeader = doc.createElement('header');
   nodHeader.innerHTML = html;
   return nodHeader;
-}
+};
 
 export default Header;
