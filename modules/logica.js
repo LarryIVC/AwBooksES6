@@ -1,5 +1,5 @@
 import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
-import { BookList } from './BookList.js';
+import BookList from './BookList.js';
 
 function hideSectionsOnClick() {
   const listSection = document.getElementById('all-books');
@@ -29,7 +29,7 @@ function hideSectionsOnClick() {
   });
 }
 
-export function logica() {
+const logica = () => {
   const bookListElement = document.getElementById('book-list');
   const addBookFormElement = document.getElementById('add-book-form');
   const titleInputElement = document.getElementById('title-input');
@@ -45,20 +45,13 @@ export function logica() {
   bookList.loadBooks();
 
   hideSectionsOnClick();
-
-  // const options = {
-  //   year: 'numeric',
-  //   month: 'long',
-  //   day: 'numeric',
-  //   hour: 'numeric',
-  //   minute: 'numeric',
-  //   second: 'numeric',
-  //   hour12: true,
-  // };
+ 
   DateTime.local();
-  // const now = new Date();
+ 
   const now = DateTime.now();
   const currentDate = now.toLocaleString(DateTime.DATETIME_MED);
   const xDateTime = document.getElementById('date-time');
   xDateTime.innerHTML = currentDate;
 }
+
+export default logica;
