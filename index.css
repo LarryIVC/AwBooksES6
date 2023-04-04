@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: cornflowerblue;
+  transition: color 300ms ease;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.book-list-container {
+  border: 2px black solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 1rem;
+}
+
+#book-list p {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+  /* width: 100vw; */
+}
+
+
+#all-books {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#all-books h1 {
+  text-align: center;
+}
+
+#book-list {
+  border: black 4px solid;
+  padding: 0;
+  width: 70%;
+}
+
+#all-books ul li {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: auto; */
+}
+
+#all-books ul li:nth-of-type(odd) {
+  background-color: lightgray;
+}
+
+hr {
+  margin-bottom: 0;
+}
+
+#remove-button {  
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .9);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 5px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color,color 300ms ease;
+}
+
+#remove-button:hover {
+  background-color:darkgrey;
+  color: #fff;
+}
+
+#add-book {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#add-book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+#add-book-form h2 {
+  margin-bottom: 0;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 3px solid black;
+  min-width: 300px;
+}
+
+#add-button {
+  margin: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border: 4px solid black;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  margin-left: 15rem;
+}
+
+#contact-us {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  border: 2px black solid;
+  padding-left: 20px;
+}
