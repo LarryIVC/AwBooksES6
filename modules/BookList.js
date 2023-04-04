@@ -1,4 +1,4 @@
-export class BookList {
+export default class BookList {
   constructor(bookListElement, addBookFormElement, titleInputElement, authorInput) {
     this.bookListElement = bookListElement;
     this.addBookFormElement = addBookFormElement;
