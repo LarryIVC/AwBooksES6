@@ -1,5 +1,5 @@
-export function Header () {
-  let html = `
+export function Header() {
+  const html = `
   <nav class="book-list-container">
     <h3 class="book-list-title">Awesome Books</h3>
     <div>
@@ -13,8 +13,8 @@ export function Header () {
   <div class="date">
   <time id="date-time"></time>
   </div>`;
-const doc = document
-const nodHeader = doc.createElement('header');
-nodHeader.innerHTML = html;
-return nodHeader;
+  const doc = document;
+  const nodHeader = doc.createElement('header');
+  nodHeader.innerHTML = html;
+  return nodHeader;
 }
