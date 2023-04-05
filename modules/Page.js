@@ -4,8 +4,8 @@ import MainCont from './MainCont.js';
 import logica from './logica.js';
 
 const Page = () => {
-  const myPage = document.getElementById('page'),
-  myHideMsg = document.getElementsByClassName('tohide');
+  const myPage = document.getElementById('page');
+  const myHideMsg = document.getElementsByClassName('tohide');
   myHideMsg.style.display = 'none';
   myPage.appendChild(Header());
   myPage.appendChild(MainCont());
