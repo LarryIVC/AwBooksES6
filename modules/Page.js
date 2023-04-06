@@ -5,12 +5,13 @@ import logica from './logica.js';
 
 const Page = () => {
   const myPage = document.getElementById('page');
-  const myHideMsg = document.getElementsByClassName('tohide');
-  myHideMsg.style.display = 'none';
+  const myHideMsg = document.querySelector('.tohide');
   myPage.appendChild(Header());
   myPage.appendChild(MainCont());
   myPage.appendChild(Footer());
-  logica();
+
+  setTimeout(() => logica(), 100);
+  myHideMsg.style.display = 'none';
 };
 
 export default Page;
