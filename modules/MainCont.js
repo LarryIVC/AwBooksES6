@@ -19,8 +19,8 @@ const MainCont = () => {
       <h1>Contact Information</h1>
       <p>If you have any questions or you just want to say "Hello", you can reach out to us!</p>
       <ul>
-        <li>Our e-mail: <a href="mailto:naanahmed.na@gmail.com" target="_blank">naanahmed.na@gmail.com</a></li>
-        <li>Our e-mail: <a href="mailto:Larry.villegas@gmail.com" target="_blank">Larry.villegas@gmail.com</a></li>
+        <li>Our e-mail: <a href="mailto:larry.villegas@gmail.com" target="_blank">larry.villegas@gmail.com</a></li>
+        <li>Our e-mail: <a href="mailto:naanahmed.na@gmail.com" target="_blank">naanahmed.na@gmail.com</a></li>        
         <li>Our e-mail: <a href="mailto:abiola.arobieke@gmail.com" target="_blank">abiola.arobieke@gmail.com</a></li>
       </ul>
     </section>`;
