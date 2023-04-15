@@ -57,8 +57,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-  Not implemented yet
-  <!-- <a href="">Click Me</a> -->
+ <a href="https://larryivc.github.io/AwBooksES6/" target="_blank">Click here to go a live version</a> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
